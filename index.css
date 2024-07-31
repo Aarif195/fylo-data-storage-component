@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('images/bg-desktop.png'), url('images/bg-mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+section {
+  display: flex;
+  column-gap: 30px;
+  margin: 35vh auto;
+}
+
+.fylo {
+  width: 250px;
+  height: 170px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 0px 65px 0px 0px;
+  margin-left: 30px;
+  /* margin-top: 5px; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.fol img {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.fylo-1 {
+  /* display: flex; */
+  /* margin-top: -10px; */
+  margin-left: 20px;
+  /* column-gap: 10px; */
+  margin-top: 20px;
+}
+
+
+.fol {
+  margin-top: 19px;
+  display: flex;
+  column-gap: 10px;
+  /* justify-content: space-evenly; */
+  margin-left: 18px;
+
+}
+
+.mac {
+  width: 32vw;
+  height: 10vh;
+  /* background-color: blue; */
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 30px;
+  margin-top: 35px;
+  position: relative;
+  /* margin: 300px auto; */
+
+}
+
+.goo {
+  width: 110px;
+  height: 2vh;
+  background-color: white;
+  color: hsl(229, 7%, 55%);
+  border-radius: 20px 20px 0px 20px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 130px;
+  left: 390px;
+}
+
+.goo p {
+  color: hsl(229, 57%, 11%);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.goo span {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(243, 100%, 93%);
+  /* margin-top: -10px; */
+}
+
+.mac p {
+  margin-left: -10px;
+  /* margin-top: 20px; */
+}
+
+.far {
+  width: 25vw;
+  border: 0;
+  border-radius: 10px;
+  background-color: hsl(229, 57%, 11%);
+  position: relative;
+  margin-left: 20px;
+  /* margin-top: 30px; */
+}
+
+p {
+  /* margin-top: 20px; */
+}
+
+.from {
+  width: 19vw;
+  border: 0;
+  border-radius: 10px;
+  /* background-color: yellow; */
+  position: absolute;
+  left: 0;
+  /* right: 32px; */
+  margin-top: 2px;
+  margin-left: 20px;
+  background-color: hsl(6, 100%, 80%);
+}
+
+h6 {
+  margin-left: -10px;
+  font-size: 16px;
+  font-weight: 700;
+}
