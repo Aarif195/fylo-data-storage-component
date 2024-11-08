@@ -11,15 +11,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Raleway", sans-serif;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+  /* display: flex;
+  justify-content: center; */
+  /* height: 100vh; */
+  width: 100%;
 }
 
 section {
   display: flex;
+  justify-content: center;
   column-gap: 30px;
   margin: 35vh auto;
+  align-items: end;
 }
 
 .fylo {
@@ -78,21 +81,22 @@ h3 {
   row-gap: 10px;
   padding: 30px;
   margin-top: 35px;
+  
   position: relative;
   /* margin: 300px auto; */
 
 }
 
 .goo {
-  color: hsl(229, 7%, 55%);
-  /* border-radius: 20px 20px 0px 20px; */
+  /* color: hsl(229, 7%, 55%);
+  border-radius: 20px 20px 0px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   position: absolute;
   bottom: 170px;
-  left: 300px;
+  left: 300px; */
 }
 
 .goo p {
@@ -106,7 +110,7 @@ h3 {
   font-weight: 400;
   color: hsl(243, 100%, 93%);
   /* margin-top: -10px; */
-}
+} */
 
 .mac p {
   margin-left: -10px;
@@ -114,12 +118,12 @@ h3 {
 }
 
 .far {
-  width: 25vw;
+  width: 100%;
   border: 0;
   border-radius: 10px;
   background-color: hsl(229, 57%, 11%);
   position: relative;
-  margin-left: 20px;
+  
   /* margin-top: 30px; */
 }
 
@@ -128,7 +132,7 @@ p {
 }
 
 .from {
-  width: 19vw;
+  width: 81.5%;
   border: 0;
   border-radius: 10px;
   /* background-color: yellow; */
@@ -144,54 +148,79 @@ h6 {
   margin-left: -10px;
   font-size: 16px;
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
 }
 h6 span{
-  margin-left: 330px;
+  /* margin-left: 330px; */
 }
 
 .talk-bubble {
 	margin: 40px;
   display: inline-block;
   display: block;
-  position: relative;
-	width: 200px;
-	height: 50%;
+  position: absolute;
+  /* top: -40px; */
+  bottom: 70px;
+  /* right: 40px; */
+  right: -10px;
+	width: 160px;
+	height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-	background-color: lightyellow;
+	background-color: white;
   /* background-color: yellow; */
 }
 
 .round{
-  border-radius: 30px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
+  border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 
 }
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  color: hsl(229, 57%, 11%);
+  font-size: 20px;
+  font-weight: 700;
+}
 
-/*Right triangle, placed bottom left side slightly in*/
-.tri-right.border.btm-left:before {
+.talktext span{
+  font-size: 14px;
+  font-weight: bold;
+  color: hsl(243, 100%, 93%);
+}
+/*Right triangle, placed bottom right side slightly in*/
+.tri-right.border.btm-right:before {
 	content: ' ';
 	position: absolute;
 	width: 0;
 	height: 0;
-	left: -8px;
-  right: auto;
-  top: auto;
+  left: auto;
+	right: -8px;
 	bottom: -40px;
-	border: 32px solid;
-	border-color: transparent transparent transparent #666;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
 }
-.tri-right.btm-left:after{
+.tri-right.btm-right:after{
 	content: ' ';
 	position: absolute;
 	width: 0;
-	height: 2px;
-	left: auto;
-  right: -22px;
-  top: auto;
-	bottom: -22px;
-	border: 22px solid;
-	border-color: transparent transparent transparent lightyellow;
+	height: 0;
+  left: auto;
+	right: 0px;
+	bottom: -12px;
+	border: 12px solid;
+	border-color: lightyellow lightyellow transparent transparent;
 }
+
+.attribution {
+  text-align: center;
+}
+
+
