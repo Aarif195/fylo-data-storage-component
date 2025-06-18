@@ -30,7 +30,7 @@ section {
   height: 170px;
   background-color: hsl(228, 56%, 26%);
   border-radius: 0px 65px 0px 0px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
   margin-top: 1px;
   color: white;
   display: flex;
@@ -87,17 +87,7 @@ h3 {
 
 }
 
-.goo {
-  /* color: hsl(229, 7%, 55%);
-  border-radius: 20px 20px 0px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  position: absolute;
-  bottom: 170px;
-  left: 300px; */
-}
+
 
 .goo p {
   color: hsl(229, 57%, 11%);
@@ -224,3 +214,23 @@ h6 span{
 }
 
 
+@media (max-width:768px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 14vh auto;
+  }
+
+.fylo {
+  width: 90%;
+}
+
+  .mac {
+    width: 80%;
+  }
+
+  .attribution  {
+    font-size: 14px;
+  }
+}
